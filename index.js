@@ -13,6 +13,13 @@ app.get('/courses', (req, res) => {
     res.send(courses)
 })
 
+// get course by id
+app.get('/course/:id', (req, res) => {
+    const id = req.params.id;
+    const course = courses?.find((crs) => crs?.id == id);
+    res.send(course);
+});
+
 
 // sest sutup 
 app.get('/', (req, res) => {
