@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "HTML",
+        "price": 25.95,
+        "description": "HTML is the standard markup language for Web pages, With HTML you can create your own Website, HTML is easy to learn - You will enjoy it! HTML (HyperText Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables.",
+        "category": "web development",
+        "image": "https://cutt.ly/UNuO8mT",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "CSS",
+        "price": 22.3,
+        "description": "CSS is the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language.",
+        "category": "web development",
+        "image": "https://cutt.ly/ZNuAJba",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "REACT",
+        "price": 55.99,
+        "description": "React (also known as React. js or ReactJS) is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta (formerly Facebook) and a community of individual developers and companies.",
+        "category": "web development",
+        "image": "https://cutt.ly/HNuSbpB",
+        "rating": {
+            "rate": 4.9,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "PYTHON",
+        "price": 15.99,
+        "description": "Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.",
+        "category": "web development",
+        "image": "https://cutt.ly/DNuSBbF",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "FACEBOOK ADS",
+        "price": 695,
+        "description": "Ads Manager is your starting point for running ads on Facebook, Instagram, Messenger or Audience Network. It is an all-in-one tool for creating ads, managing when and where they will run, and tracking how well your campaigns are performing towards your marketing goals.",
+        "category": "web development",
+        "image": "https://cutt.ly/gNuDYY0",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "GOOGLE ADS",
+        "price": 168,
+        "description": "Google Ads is a product that you can use to promote your business, help sell products or services, raise awareness, and increase traffic to your website. Google Ads accounts are managed online, so you can create and change your ad campaign at any time, including your ad text, settings, and budget.",
+        "category": "web development",
+        "image": "https://cutt.ly/gNuD7m1",
+        "rating": {
+            "rate": 4.9,
+            "count": 250
+        }
+    }
+]
