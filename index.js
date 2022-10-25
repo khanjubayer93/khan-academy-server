@@ -4,6 +4,10 @@ const cors = require("cors");
 app.use(cors());
 const port = process.env.PORT || 5000;
 
+// get data from fakedata
+const courses = require('./Data/fakedata.json');
+console.log(courses)
+
 // sest sutup 
 app.get('/', (req, res) => {
     res.send('khan academy server running on port')
