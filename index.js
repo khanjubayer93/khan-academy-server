@@ -20,6 +20,12 @@ app.get('/course/:id', (req, res) => {
     res.send(course);
 });
 
+// get course by name
+app.get('/course/:name', (req, res) => {
+    const name = req.params.name;
+    const getCourseName = courses?.filter((c) => c?.name == name)
+    res.send(getCourseName);
+})
 
 // sest sutup 
 app.get('/', (req, res) => {
