@@ -8,6 +8,12 @@ const port = process.env.PORT || 5000;
 const courses = require('./Data/fakedata.json');
 console.log(courses)
 
+// get all course
+app.get('/courses', (req, res) => {
+    res.send(courses)
+})
+
+
 // sest sutup 
 app.get('/', (req, res) => {
     res.send('khan academy server running on port')
