@@ -6,7 +6,7 @@ const port = process.env.PORT || 5000;
 
 // get data from fakedata
 const courses = require('./Data/fakedata.json');
-console.log(courses)
+// console.log(courses)
 
 // get all course
 app.get('/courses', (req, res) => {
@@ -21,9 +21,10 @@ app.get('/course/:id', (req, res) => {
 });
 
 // get course by name
-app.get('/course/:name', (req, res) => {
-    const name = req.params.name;
-    const getCourseName = courses?.filter((c) => c?.name == name)
+app.get('/courses/:title', (req, res) => {
+    const name = req.params.title;
+    console.log(name)
+    const getCourseName = courses?.filter((c) => c?.title == name)
     res.send(getCourseName);
 })
 
